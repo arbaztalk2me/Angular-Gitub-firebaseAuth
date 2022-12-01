@@ -1,0 +1,11 @@
+<div class="card mt-4 mb-5">
+    <div class="card-header">Your Repos</div>
+    <div *ngFor="let rep of repo">
+        <h4> Repo Name: {{rep.name|json}}</h4>
+        
+        <h5>Repo url: 
+            <a href="">{{rep.url|json}}</a>
+            </h5>
+    </div>
+    
+</div>

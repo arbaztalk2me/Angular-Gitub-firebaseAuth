@@ -1,0 +1,23 @@
+<div class="card mt-4">
+    <div class="card-header">
+        User Information
+    </div>
+    <div class="card-body">
+        <div class="d-flex justify-content-center">
+            <div class="img-parent">
+            
+                <img  src={{users?.avatar_url}} class="img-thumbnail" alt="">
+            
+            </div>
+        </div>
+        
+        <div class="card-title">Username: {{users?.login}}</div>
+        <div class="card-text">Bio: {{users?.bio}}</div>
+        <div class="card-text">Company: {{users?.company}}</div>
+        <div class="card-text">Blog: {{users?.blog}}</div>
+        <div>
+            <span class="me-2">Following {{users?.following}}</span>
+            <span>Followers {{users?.followers}}</span>
+        </div>
+    </div>
+</div>
