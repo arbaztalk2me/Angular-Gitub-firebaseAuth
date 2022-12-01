@@ -40,7 +40,7 @@ import { environment } from 'src/environments/environment';
     FormsModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({
-      timeOut: 1000,
+      timeOut: 5000,
       positionClass: 'toast-top-right'
     }),
     AngularFireModule.initializeApp(environment.firebaseConfig),
